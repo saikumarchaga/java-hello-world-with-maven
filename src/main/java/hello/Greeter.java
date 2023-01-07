@@ -1,7 +1,7 @@
 package hello;
 
 public class Greeter {
-    public String sayHello1() {
+    public String sayHello() {
         return "Testing the git workflow";
     }
 }
