@@ -7,13 +7,17 @@
     <packaging>jar</packaging>
     <version>0.1.0</version>
 
-    <!-- Updated properties -->
+    <!-- Consolidated Properties -->
     <properties>
+        <sonar.projectKey>My-Maven-Project</sonar.projectKey>
+        <sonar.host.url>http://13.232.4.11:9000/</sonar.host.url>
+        <sonar.login>sqp_15e7bb66c918917fe03b3be6614f36c13911eb0f</sonar.login>
         <java.version>11</java.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <!-- Dependencies -->
     <dependencies>
         <dependency>
             <groupId>joda-time</groupId>
@@ -22,6 +26,7 @@
         </dependency>
     </dependencies>
 
+    <!-- Build Section -->
     <build>
         <plugins>
             <!-- Maven Shade Plugin -->
@@ -56,6 +61,13 @@
                     <source>${maven.compiler.source}</source>
                     <target>${maven.compiler.target}</target>
                 </configuration>
+            </plugin>
+
+            <!-- SonarQube Maven Plugin -->
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.1.2184</version>
             </plugin>
         </plugins>
     </build>
