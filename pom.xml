@@ -9,7 +9,7 @@
 
     <!-- Consolidated Properties -->
     <properties>
-        <sonar.projectKey>My-Maven-Project</sonar.projectKey>
+        <sonar.projectKey>java-maven-project</sonar.projectKey>
         <sonar.host.url>http://172.31.33.148:9000/</sonar.host.url>
         <sonar.login>sqa_cffcf75a6ea4c76ff30829d6d19e92b303cf6483</sonar.login>
         <java.version>11</java.version>
