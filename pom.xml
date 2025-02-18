@@ -10,8 +10,8 @@
     <!-- Consolidated Properties -->
     <properties>
         <sonar.projectKey>My-Maven-Project</sonar.projectKey>
-        <sonar.host.url>http://43.205.232.205:9000/</sonar.host.url>
-        <sonar.login>sqp_15e7bb66c918917fe03b3be6614f36c13911eb0f</sonar.login>
+        <sonar.host.url>http://172.31.33.148:9000/</sonar.host.url>
+        <sonar.login>sqa_cffcf75a6ea4c76ff30829d6d19e92b303cf6483</sonar.login>
         <java.version>11</java.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
